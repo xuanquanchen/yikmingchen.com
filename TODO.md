@@ -1,9 +1,12 @@
-# TODO - 待完成任务
+# TODO
 
 ---
 
-## 下一步计划
+## Next Steps
 
-- [ ] 导入一些的照片：先导出为 JPG/PNG，再放入 photos/ 并运行 `npm run organize-photos` 生成命名与 JSON（不使用 watcher）
-- [ ] 完成 YC 艺术字设计
-- [ ] 添加 demos 指引：在 demo/ 放入 `YYYY-MM-DD.mp4` 和同名 `YYYY-MM-DD.md`（frontmatter 里写 link），页面会自动显示在 /demos
+- [ ] Import photos: export to JPG/PNG, put in photos/, then run `npm run organize-photos` to generate names and JSON (no watcher)
+- [ ] Add demos guide: put `YYYY-MM-DD.mp4` and same-name `YYYY-MM-DD.md` in demo/ (frontmatter with link), page will show at /demos
+- [ ] Finish YC wordmark design
+- [ ] Art: achieve ice breaking effect for background
+- [ ] Update share links (WrapperPost.vue) to my account/domain
+- [ ] Update thanks link (ThanksAnthony.vue) to final version

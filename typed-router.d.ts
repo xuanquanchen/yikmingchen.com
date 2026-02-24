@@ -51,20 +51,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/chat': RouteRecordInfo<
-      '/chat',
-      '/chat',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/chat-zh': RouteRecordInfo<
-      '/chat-zh',
-      '/chat-zh',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/collective-sponsor-onetime': RouteRecordInfo<
       '/collective-sponsor-onetime',
       '/collective-sponsor-onetime',
@@ -75,13 +61,6 @@ declare module 'vue-router/auto-routes' {
     '/demos': RouteRecordInfo<
       '/demos',
       '/demos',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/giving-talks': RouteRecordInfo<
-      '/giving-talks',
-      '/giving-talks',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -228,18 +207,6 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/chat.md': {
-      routes:
-        | '/chat'
-      views:
-        | never
-    }
-    'pages/chat-zh.md': {
-      routes:
-        | '/chat-zh'
-      views:
-        | never
-    }
     'pages/collective-sponsor-onetime.md': {
       routes:
         | '/collective-sponsor-onetime'
@@ -249,12 +216,6 @@ declare module 'vue-router/auto-routes' {
     'pages/demos.md': {
       routes:
         | '/demos'
-      views:
-        | never
-    }
-    'pages/giving-talks.md': {
-      routes:
-        | '/giving-talks'
       views:
         | never
     }

@@ -1,7 +1,6 @@
 ---
 title: Yiming Chen
 description: Yiming Chen's Personal Homepage
-image: https://antfu.me/og.png
 art: random
 ---
 
