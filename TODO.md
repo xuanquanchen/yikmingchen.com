@@ -4,6 +4,7 @@
 
 ## Next Steps
 
+- [ ] **KaTeX Styling**: Configure custom KaTeX styles in main.css (like original blog style) - currently using default katex.min.css
 - [ ] Import photos: export to JPG/PNG, put in photos/, then run `npm run organize-photos` to generate names and JSON (no watcher)
 - [ ] Add demos guide: put `YYYY-MM-DD.mp4` and same-name `YYYY-MM-DD.md` in demo/ (frontmatter with link), page will show at /demos
 - [ ] Finish YC wordmark design

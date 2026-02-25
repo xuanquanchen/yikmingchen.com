@@ -121,6 +121,13 @@ declare module 'vue-router/auto-routes' {
       { TEMPLATE: ParamValue<false> },
       | never
     >,
+    '/posts/cpp-stl-notes': RouteRecordInfo<
+      '/posts/cpp-stl-notes',
+      '/posts/cpp-stl-notes',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/leetcode-template': RouteRecordInfo<
       '/posts/leetcode-template',
       '/posts/leetcode-template',
@@ -264,6 +271,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/[TEMPLATE]-note-example.md': {
       routes:
         | '/posts/[TEMPLATE]-note-example'
+      views:
+        | never
+    }
+    'pages/posts/cpp-stl-notes.md': {
+      routes:
+        | '/posts/cpp-stl-notes'
       views:
         | never
     }
