@@ -121,9 +121,9 @@ declare module 'vue-router/auto-routes' {
       { TEMPLATE: ParamValue<false> },
       | never
     >,
-    '/posts/Leetcode Template': RouteRecordInfo<
-      '/posts/Leetcode Template',
-      '/posts/Leetcode%20Template',
+    '/posts/leetcode-template': RouteRecordInfo<
+      '/posts/leetcode-template',
+      '/posts/leetcode-template',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -267,9 +267,9 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/Leetcode Template.md': {
+    'pages/posts/leetcode-template.md': {
       routes:
-        | '/posts/Leetcode Template'
+        | '/posts/leetcode-template'
       views:
         | never
     }

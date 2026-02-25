@@ -1,6 +1,6 @@
 ---
-title: Notes - Anthony Fu
-art: plum
+title: Notes - Yiming Chen
+art: random
 display: ''
 ---
 
