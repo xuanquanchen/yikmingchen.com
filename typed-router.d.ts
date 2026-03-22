@@ -142,6 +142,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/note-preference-on-rental': RouteRecordInfo<
+      '/posts/note-preference-on-rental',
+      '/posts/note-preference-on-rental',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/projects': RouteRecordInfo<
       '/projects',
       '/projects',
@@ -296,6 +303,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/leetcode-template.md': {
       routes:
         | '/posts/leetcode-template'
+      views:
+        | never
+    }
+    'pages/posts/note-preference-on-rental.md': {
+      routes:
+        | '/posts/note-preference-on-rental'
       views:
         | never
     }
